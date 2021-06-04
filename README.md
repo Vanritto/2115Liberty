@@ -1,7 +1,7 @@
-# Geom 99 Group Project
-## Group: Web 1
+# APST 62
+## Group: Vanritto
 
-Git Repository for group project. 
+Git Repository for final presentation of the Liberty Project Event Platform. 
 
 Team Members are: 
 
