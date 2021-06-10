@@ -8,6 +8,10 @@
         <!-- Link to the JavaScript sheet -->
         <script src="vanritto.js"></script>
 
+        <style>
+            
+        </style>
+
     </head>
     <body>
     
@@ -49,98 +53,64 @@
 
         <div class="container">
           <!--DATA ENTRY FORM-->
-          <!--Web Form Reference: https://www.w3schools.com/html/html_forms.asp-->
-         <!-- <form action="action_page.php">
-              
+          <!--Web Form Reference: https://www.w3docs.com/snippets/html/how-to-create-mailto-forms.html-->
+          
+        
+         <form action="mailto:Vanritto.2021@gmail.com?subject=Comments from the webpage" target="_blank" method="POST" enctype="text/plain" >
             <div class="row">
-              <div class="col-25">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              </div>
+                <div class="col-25">
+                    <label for="name">Name:
+                </div>
+                    <div class="col-75">
+                    <input type="text" name="Name" id="name" />
+                </label>
+                </div>
             </div>
-              
             <div class="row">
-              <div class="col-25">
-                <label for="lname">Last Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              </div>
+                <div class="col-25">
+                    <label for="email">Email:
+                </div>
+                <div class="col-75">
+                    <input type="email" name="Email" id="email" />
+                </label>
+                </div>
             </div>
-              
             <div class="row">
-              <div class="col-25">
-                <label for="lname">Email Address</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="emailaddress" name="emailaddress" placeholder="Your email address..">
-              </div>
-            </div>
-              
-            <div class="row">
-              <div class="col-25">
-                <label for="country">Country</label>
-              </div>
-              <div class="col-75">
-                <select id="country" name="country">
-                  <option value="canada">Canada</option>
-                  <option value="mozambiqu">Mozambique</option>
-                  <option value="usa">USA</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-            </div>
-              
-            <div class="row">
-              <div class="col-25">
-                <label for="ocountry">Other Country</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="ocountry" name="othercountry" placeholder="Your country..">
-              </div>
-            </div>
+                <div class="col-25">
+                    <label for="comments">Comments:
+                </div>
+                <div class="col-75">
+                    <textarea name="Comments" rows="12" cols="20">Send your comments to us.</textarea>
+                </label>
                 
-            <div class="row">
-              <div class="col-25">
-                <label for="ocountry">City</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="city" name="city" placeholder="Your city..">
-              </div>
+                </div>
             </div>
-              
-            <div class="row">
-              <div class="col-25">
-                <label for="subject">Subject</label>
-              </div>
-              <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              </div>
+            <div class="row"> 
+                <div class="col-75">
+                <input type="submit" name="Submit" value="Send" />
+                </div>
             </div>
-            
           </form>
-          <!--END DATA ENTRY FORM-->
+        <!--END DATA ENTRY FORM-->
         </div>
 
         <!--SUBMIT BUTTON-->
-                <!--https://www.w3schools.com/html/html_links.asp button as a link-->
+                <!--https://www.w3schools.com/html/html_links.asp button as a link
                 <div class="rowcontact">
-                   <!-- <p><input type="button" value="Email Vanritto" target="_blank" onclick ="parent.location='mailto:Vanritto.2021@gmail.com'"> </p>
-                    
+                    <p><input type="button" value="Email Vanritto" target="_blank" onclick ="parent.location='mailto:Vanritto.2021@gmail.com'"> </p>
+                    <a href="mailto:Vanritto.2021@gmail.com?subject=Example+subject&body=Message+text">Send email</a>
                 </div>-->
                 <!--END SUBMIT BUTTON-->
 
         
 
-        <!--VANRITTO CONTACT INFO-->
+        <!--VANRITTO CONTACT INFO
         <div class="contentform">
-            <!--<p><i class="fa fa-envelope"></i><a href="mailto:Vanritto.2021@gmail.com" target="_blank"> Email Vanritto</a></p>-->
+            <p><i class="fa fa-envelope"></i><a href="mailto:Vanritto.2021@gmail.com" target="_blank"> Email Vanritto</a></p>
             <p><input type="button" "Email Vanritto" target="_blank" onclick ="parent.location='mailto:Vanritto.2021@gmail.com'"> </p>
-            <!--<p><i class="fa fa-phone"></i>123-456-7890</p>-->
+            <p><i class="fa fa-phone"></i>123-456-7890</p>
         </div>
-        <!--END VANRITTO CONTACT INFO-->
+        END VANRITTO CONTACT INFO-->
 
       <!-- END CONTENT -->
 

@@ -679,6 +679,15 @@ margin-left: 21%;
    box-sizing: border-box;
    resize: vertical;
  }
+
+ input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
  
  /* Style the label to display next to the inputs */
  label {
@@ -711,8 +720,10 @@ margin-left: 21%;
   float: none;
   width: 100px;
   display: block;
- margin-left: 35%;
+  margin-left: 55%;
  margin-right: 50%;
+ margin-bottom: 20px;
+ margin-top: 20px;
  }
 
  
